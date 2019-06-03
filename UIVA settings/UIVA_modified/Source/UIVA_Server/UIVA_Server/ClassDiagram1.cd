@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UIVA_Server.UIVA_OpenvibeToUnityAnalog">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAABAAAAAAAgAAAAAAAAAAAASAAAACAAAACA=</HashCode>
+      <FileName>UIVA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIVA_Server.UIVA_OpenvibeToUnityButton">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABgAAAAAAgAAAAAAAAAAAAQQAAAAAAAAAE=</HashCode>
+      <FileName>UIVA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIVA_Server.UIVA_UnityToOpenvibeButton">
+    <Position X="0.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAgAAAAAAgAAQAAACAAAAAAAA=</HashCode>
+      <FileName>UIVA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIVA_Server.UIVA">
+    <Position X="3.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAMQAAAAQEAAAEAAAAAAgAQAAAAAACAgACBQAgAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
