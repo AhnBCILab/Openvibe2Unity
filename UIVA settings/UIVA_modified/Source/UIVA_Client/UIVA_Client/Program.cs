@@ -1,6 +1,6 @@
 ﻿///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
-/// O2U (Unity Indie VRPN Adapter) Unity
+/// O2U Client (Unity Indie VRPN Adapter) 
 /// 
 /// Function: The client side of UIVA living in Unity as a DLL file.
 ///           Unity creates a UIVA class and calls its GetXXXData(out X, out X) functions
