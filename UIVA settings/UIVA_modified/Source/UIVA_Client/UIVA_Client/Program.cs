@@ -30,6 +30,8 @@
 /// Author: 
 /// Modified by Seong-Jooon Jeong, Soo-Yong Kim, Min-Kyu Ahn.
 /// Handong BCI LAB (https://sites.google.com/handong.edu/ahnbcilab)
+/// Contract:
+/// minkyuahn@handong.edu
 ///
 ///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
