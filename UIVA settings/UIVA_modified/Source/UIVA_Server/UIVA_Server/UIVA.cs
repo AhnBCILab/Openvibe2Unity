@@ -1,6 +1,6 @@
 ﻿///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
-/// UIVA Server - Unity Indie VRPN Adapter 
+/// O2U Server - Unity Indie VRPN Adapter 
 /// 
 /// File: UIVA.cs
 /// 
@@ -8,13 +8,11 @@
 ///     Each device has a UIVA_Device class, which contains data buffers and callbacks 
 ///     functions.
 /// 
+/// OpenViBE2Unity (UIVA Modified)
 /// Author: 
-///     Jia Wang (wangjia@wpi.edu)
-///     Human Interaction in Virtual Enviroments (HIVE) Lab
-///     Department of Computer Science
-///     Worcester Polytechnic Institute
-/// 
-/// History: (1.0) 02/05/2011  by  Jia Wang           
+/// Modified by Seong-Jooon Jeong, Soo-Yong Kim, Min-Kyu Ahn.
+/// Handong BCI LAB (https://sites.google.com/handong.edu/ahnbcilab)
+///
 ///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
 
