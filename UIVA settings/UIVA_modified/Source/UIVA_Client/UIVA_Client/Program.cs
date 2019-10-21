@@ -1,24 +1,17 @@
 ﻿///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
-/// UIVA (Unity Indie VRPN Adapter) Unity
+/// O2U (Unity Indie VRPN Adapter) Unity
 /// 
 /// Function: The client side of UIVA living in Unity as a DLL file.
 ///           Unity creates a UIVA class and calls its GetXXXData(out X, out X) functions
 ///           to get the latest data from the sensor devices.
 /// 
-/// About UIVA:
-/// 
-///   UIVA is a middle-ware between VRPN and Unity. It enables games developed by Unity3D INDIE
-///   to be controlled by devices powered by VRPN. It has a client and a server simultaneously.
-///   For VRPN, UIVA is its client which implements several callback functions to receive the 
-///   latest data from the devices. For Unity, UIVA is a server that stores the latest sensor
-///   data which allows it to query. The framework is shown as below:
 ///   
 ///        ~~~Sensor~~~      ~~~VRPN~~~      ~~~~~~~~~~~~UIVA~~~~~~~~~~~~~~~    ~~~Unity3D~~~     
 ///        
-///   Kinect-----(FAAST)---->|--------|    |--------|--------|    |---------|
-///    Wii ----(VRPN Wii)--->|        |    |        |        |    |         |--->Object transform
-///   BPack --(VRPN BPack)-->|  VRPN  |    |  VRPN  | Unity  |    |  Unity  |
+///   Analog Server -------->|--------|    |--------|--------|    |---------|
+///   Button Server -------->|        |    |        |        |    |         |--->Object transform
+///           ...            |  VRPN  |    |  VRPN  | Unity  |    |  Unity  |
 ///           ...            |        |===>|  .net  | socket |===>|  socket |--->GUI
 ///           ...            | server |    |        |        |    |         |
 ///           ...            |        |    | client | server |    |  client |--->etc. of Unity3D
@@ -33,23 +26,11 @@
 ///   They also implemented a ARToolkit wrapper which enables AR application in Unity. 
 ///   Check out their UART project, it is awesome!
 ///    
+/// OpenViBE2Unity (UIVA Modified)
 /// Author: 
-/// 
-/// Jia Wang (wangjia@wpi.edu)
-/// Human Interaction in Virtual Enviroments (HIVE) Lab
-/// Department of Computer Science
-/// Worcester Polytechnic Institute
-/// 
-/// History: (1.0) 01/11/2011  by  Jia Wang
+/// Modified by Seong-Jooon Jeong, Soo-Yong Kim, Min-Kyu Ahn.
+/// Handong BCI LAB (https://sites.google.com/handong.edu/ahnbcilab)
 ///
-/// Acknowledge: Thanks to Chris VanderKnyff for the .NET version of VRPN
-///                     to UNC for the awesome VRPN
-///                     to Unity3D team for the wonderful engine
-///              
-///              and above all, special thanks to 
-///                 Prof. Robert W. Lindeman (http://www.wpi.edu/~gogo) 
-///              for the best academic advice.
-///              
 ///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
 
