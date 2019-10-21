@@ -1,50 +1,26 @@
 ﻿///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
-/// UIVA Server - Unity Indie VRPN Adapter 
+/// O2U Server - Unity Indie VRPN Adapter 
 /// 
 /// Function:
 /// 
-///     UIVA is a middle-ware between VRPN and Unity. It enables games developed by Unity3D INDIE
-///   to be controlled by devices powered by VRPN. It has a client and a server simultaneously.
-///   For VRPN, UIVA is its client which implements several callback functions to receive the 
-///   latest data from the devices. For Unity, UIVA is a server that stores the latest sensor
-///   data which allows it to query. The framework is shown as below:
 ///   
 ///        ~~~Sensor~~~      ~~~VRPN~~~      ~~~~~~~~~~~~UIVA~~~~~~~~~~~~~~~    ~~~Unity3D~~~     
 ///        
-///   Kinect-----(FAAST)---->|--------|    |--------|--------|    |---------|
-///    Wii ----(VRPN Wii)--->|        |    |        |        |    |         |--->Object transform
-///   BPack --(VRPN BPack)-->|  VRPN  |    |  VRPN  | Unity  |    |  Unity  |
+///    Analog Server-------->|--------|    |--------|--------|    |---------|
+///    Button Server ------->|        |    |        |        |    |         |--->Object transform
+///                       -->|  VRPN  |    |  VRPN  | Unity  |    |  Unity  |
 ///           ...            |        |===>|  .net  | socket |===>|  socket |--->GUI
 ///           ...            | server |    |        |        |    |         |
 ///           ...            |        |    | client | server |    |  client |--->etc. of Unity3D
 ///           ...            |--------|    |--------|--------|    |---------|
 ///    
-/// Special note: 
-///
-///      The VRPNWrapper implemented by the AR lab of Georgia Institute of Technology offers
-///   a easier to use wrapper of VRPN to be used as a plugin in Unity3D Pro. If you can afford 
-///   the Pro version of Unity. I suggest you to use VRPNWrapper. Their website is:
-///           https://research.cc.gatech.edu/uart/content/about
-///   They also implemented a ARToolkit wrapper which enables AR application in Unity. 
-///   Check out their UART project, it is awesome!
-///    
+
+/// OpenViBE2Unity (UIVA Modified)
 /// Author: 
-/// 
-/// Jia Wang (wangjia@wpi.edu)
-/// Human Interaction in Virtual Enviroments (HIVE) Lab
-/// Department of Computer Science
-/// Worcester Polytechnic Institute
-/// 
-/// History: (1.0) 02/05/2011  by  Jia Wang
+/// Modified by Seong-Jooon Jeong, Soo-Yong Kim, Min-Kyu Ahn.
+/// Handong BCI LAB (https://sites.google.com/handong.edu/ahnbcilab)
 ///
-/// Acknowledge: Thanks to Chris VanderKnyff for the .NET version of VRPN
-///                     to UNC for the awesome VRPN
-///                     to Unity3D team for the wonderful engine
-///              
-///              and above all, special thanks to 
-///                 Prof. Robert W. Lindeman (http://www.wpi.edu/~gogo) 
-///              for the best academic advice.
 ///              
 ///-----------------------------------------------------------------------------------
 ///-----------------------------------------------------------------------------------
@@ -115,7 +91,7 @@ namespace UIVA_Server      // Unity Indie VRPN Adapter
         private void ParseConfigFile()
         {
             Console.WriteLine("--------------------------------------------------------------------------");
-            Console.WriteLine("                  UIVA 1.0: Unity Indie VRPN Adapter  (Server)            ");
+            Console.WriteLine("                   O2U 1.0: Unity Indie VRPN Adapter  (Server)            ");
             Console.WriteLine("                  - Modified for communication with OpenViBE -            ");
             Console.WriteLine("                      BCI Lab in Handong Global Univ.                     ");
             Console.WriteLine("--------------------------------------------------------------------------\n");
@@ -277,6 +253,6 @@ namespace UIVA_Server      // Unity Indie VRPN Adapter
             UIVA theUIVA = new UIVA();
         }
 
-    } // End of class UIVA
+    } // End of class O2U
 
-}// End of namespace UIVA
+}// End of namespace O2U
