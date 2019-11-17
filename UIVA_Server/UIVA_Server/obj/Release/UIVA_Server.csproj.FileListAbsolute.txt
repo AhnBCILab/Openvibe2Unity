@@ -1,0 +1,8 @@
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Server\UIVA_Server\bin\Release\UIVA_Server.exe
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Server\UIVA_Server\bin\Release\UIVA_Server.pdb
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Server\UIVA_Server\bin\Release\VrpnNet.dll
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Server\UIVA_Server\obj\Release\ResolveAssemblyReference.cache
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Server\UIVA_Server\obj\Release\UIVA_Server.exe
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Server\UIVA_Server\obj\Release\UIVA_Server.pdb
+C:\uiva_1.02\new_UIVA\Source\UIVA_Server\UIVA_Server\obj\Release\UIVA_Server.exe
+C:\uiva_1.02\new_UIVA\Source\UIVA_Server\UIVA_Server\obj\Release\UIVA_Server.pdb

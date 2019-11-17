@@ -1,0 +1,5 @@
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Client\UIVA_Client\bin\Release\UIVA.pdb
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Client\UIVA_Client\obj\Release\ResolveAssemblyReference.cache
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Client\UIVA_Client\obj\Release\UIVA.pdb
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Client\UIVA_Client\bin\Release\UIVA.dll
+C:\uiva_1.02\uiva_1.02\Source\UIVA_Client\UIVA_Client\obj\Release\UIVA.dll
